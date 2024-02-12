@@ -1,0 +1,39 @@
+React
+
+- Biblioteca JS para aplicações front-end
+- SPA => Single Page Application
+- Arquitetura baseade em componentes
+- Pode ser inserido em um app ou crirar app apenas com React
+- Mantido pelo facebook
+
+ Template Expressions
+
+- Igual template strings mas no meio do componente JSX, {} para usar
+
+Eventos
+
+- Método para função do componentes
+- HandleAlgumaCoisa
+
+Hooks
+
+- Guardar e alterar o estado de algum dado na aplicação
+- Começam com use como: useState
+- Precisam ser importados
+
+useState
+
+- Utilizamos para gerenciar o estado de algum dado, variáveis não
+funcionam corretamente, o componente não re-renderiza
+
+- Para guardar o dado definimos o nome da variável e para alterar vamos
+utilizar setNome, onde nome é o nome do nosso dado
+
+CSS Global
+
+- Localizado em src/index.css
+
+useEffect
+
+- Hook
+- Usado para monitorar um elemento específico
