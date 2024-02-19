@@ -12,7 +12,7 @@ function App() {
       <Navbar></Navbar>
       <h1>React router</h1>
       <Outlet></Outlet>
-      <footer>footer</footer>
+      <footer>@vitorvitor</footer>
     </div>
   );
 }

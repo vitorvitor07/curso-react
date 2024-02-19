@@ -34,7 +34,7 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "/Contact",
+        path: "/contact",
         element: <Contact></Contact>,
       },
       // 5 - masted routes - identificador único - dymic routes

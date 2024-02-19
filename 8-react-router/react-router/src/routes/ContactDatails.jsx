@@ -8,7 +8,7 @@ const ContactDatails = () => {
   const navigate = useNavigate();
   const handleContact = () => {
     alert("Contato enviado");
-    return navigate("/");
+    return navigate("/contact");
   };
   return (
     <div>
