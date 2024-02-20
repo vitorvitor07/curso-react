@@ -1,0 +1,42 @@
+.contacts-container {
+  display: flex;
+  min-height: 75vh;
+  flex-direction: column;
+  width: 80%;
+  margin: 15px auto;
+  font-weight: 600;
+  justify-content: center;
+  /* text-shadow: 0 0 2px white; */
+}
+
+.contacts-div h3 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 15px auto;
+}
+
+.contacts-container li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 10px auto;
+  list-style: none;
+  border: none;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(69, 157, 160);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.264);
+}
+
+.contacts-container li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin: 15px;
+}
+
+.buttons-nav {
+  width: 100%;
+}
+

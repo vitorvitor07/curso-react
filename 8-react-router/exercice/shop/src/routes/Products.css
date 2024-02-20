@@ -5,9 +5,18 @@
   justify-content: space-around;
 }
 
+.products p {
+  font-size: 1.2em; /* Tamanho da fonte */
+  color: #666; /* Cor mais suave que o título */
+  text-align: center; /* Centraliza o texto */
+  line-height: 1.6; /* Espaçamento da linha */
+  margin-bottom: 20px; /* Espaço abaixo do parágrafo */
+}
+
 .products h2 {
   text-align: center;
   margin: 25px;
+  font-size: 2em;
 }
 
 .products div {

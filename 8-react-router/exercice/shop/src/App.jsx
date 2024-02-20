@@ -9,13 +9,15 @@ function App() {
   // const navigate = useNavigate();
 
   return (
-    <div>
+    <div className="app">
       <Navbar></Navbar>
       <Outlet></Outlet>
       {/* <footer>
         <button onClick={() => navigate("/contact")}>Fale conosco</button>
       </footer> */}
-      <Footer></Footer>
+      <div className="footer">
+        <Footer></Footer>
+      </div>
     </div>
   );
 }

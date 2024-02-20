@@ -1,0 +1,50 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1; /* Faz o .app expandir para ocupar o espaço disponível, empurrando o rodapé para baixo */
+  height: 100%;
+}
+
+/* .app .footer {
+  align-items: baseline;
+} */
+
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: rgb(69, 157, 160);
+  color: white;
+  font-size: 1em;
+  color: white;
+}
+
+.footer footer {
+  display: flex;
+  width: 100%;
+  background-color: rgb(69, 157, 160);
+  color: white;
+  font-size: 1em;
+  color: white;
+  /* height: 100%; */
+  /* bottom: 0%; */
+}
+
+.buttons-nav {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.buttons-nav a {
+  /* padding: 10px; */
+  width: 20%;
+  border: 1px solid black;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.341);
+  margin: 0 auto;
+}

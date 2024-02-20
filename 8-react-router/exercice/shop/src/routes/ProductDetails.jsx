@@ -30,19 +30,24 @@ const ProductDetails = () => {
   return (
     <div className="details">
       <div className="info">
-        <div className="image">
+        <div className="product-image">
           <p>Foto do Produto</p>
         </div>
         <div className="details-div">
           <span className="title">{name && name}</span>
           <span className="price">R$ {price && price}</span>
-          <p>Em até 10x sem juros ou 10% no Pix</p>
-          <a href="#">Comprar</a>
+          <p>Em até 10x sem juros ou 10% OFF no Pix</p>
+          <div className="frete">
+            <b>FRETE GRATIS!</b>
+          </div>
+          <div className="buttons-details">
+            <a href="#">Comprar</a>
+            <a href="#">Adiconar ao Carrinho</a>
+          </div>
         </div>
       </div>
-      <div className="nav-details">
+      <div className="buttons-nav">
         <Link to={"/products"}>Voltar</Link>
-        <Link to={"/"}>Início</Link>
       </div>
     </div>
   );

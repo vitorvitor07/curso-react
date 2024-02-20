@@ -7,7 +7,10 @@ const Home = () => {
     <div className="home">
       <header>
         <h1>Welcome to Vitor{"'"}s Shop</h1>
-        <p>Melhores produtos roubados você só encontra aqui</p>
+        <p>
+          Descubra as melhores ofertas em produtos exclusivos que você não
+          encontrará em nenhum outro lugar!
+        </p>
       </header>
       <section className="display">
         <div>

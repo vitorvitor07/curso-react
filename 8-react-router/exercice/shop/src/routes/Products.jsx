@@ -25,8 +25,12 @@ const Products = () => {
 
   return (
     <div className="products">
-      <h2>Destaques da Semana</h2>
-      <p>Os melhores produtos dos caminhões tombados</p>
+      <h2>Imperdíveis da Semana!</h2>
+      <p>
+        Confira nossas ofertas exclusivas desta semana e aproveite descontos
+        incríveis nos produtos que você ama. Uma seleção especial esperando por
+        você!
+      </p>
       <div>
         <ul>
           {products &&
@@ -44,7 +48,7 @@ const Products = () => {
             ))}
         </ul>
       </div>
-      <div className="nav">
+      <div className="buttons-nav">
         <Link to={"/"}>Voltar</Link>
       </div>
     </div>
