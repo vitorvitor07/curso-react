@@ -8,6 +8,7 @@ const ContactDatails = () => {
   const navigate = useNavigate();
   const handleContact = () => {
     alert("Contato enviado");
+    // Redirecionar usuário a página contact
     return navigate("/contact");
   };
   return (
