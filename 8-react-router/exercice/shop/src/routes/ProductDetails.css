@@ -1,0 +1,71 @@
+.datails {
+  display: flex;
+}
+
+.info {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  /* border: 1px solid black; */
+  border: none;
+  margin: 10px auto;
+  text-align: center;
+  width: 70%;
+  height: 100%;
+}
+
+.image {
+  width: 60%;
+  margin: 30px 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.361);
+  border: none;
+  /* border: 1px solid black; */
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  /* display: block; */
+  font-weight: 600;
+  text-align: left;
+  font-size: 1.8em;
+}
+
+.price {
+  /* display: block; */
+  font-weight: 600;
+  text-align: left;
+  font-size: 2em;
+}
+
+.details-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  /* padding: 10px;*/
+  margin: 30px;
+  /* background-color: black; */
+}
+
+.details-div a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(69, 157, 160);
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.424);
+  border: none;
+}
+
+.nav-details a {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  /* padding: 10px;*/
+  margin: 0 auto;
+}

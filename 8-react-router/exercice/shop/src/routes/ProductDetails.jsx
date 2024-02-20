@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import "./ProductDetails.css";
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -27,14 +28,19 @@ const ProductDetails = () => {
   }, [name, price, id]);
 
   return (
-    <div>
-      <div>
-        <h3>{name && name}</h3>
-        <h4>R$ {price && price}</h4>
-        <p>Em até 10x sem juros ou 10% no Pix</p>
-        <a href="#">Comprar</a>
+    <div className="details">
+      <div className="info">
+        <div className="image">
+          <p>Foto do Produto</p>
+        </div>
+        <div className="details-div">
+          <span className="title">{name && name}</span>
+          <span className="price">R$ {price && price}</span>
+          <p>Em até 10x sem juros ou 10% no Pix</p>
+          <a href="#">Comprar</a>
+        </div>
       </div>
-      <div>
+      <div className="nav-details">
         <Link to={"/products"}>Voltar</Link>
         <Link to={"/"}>Início</Link>
       </div>
