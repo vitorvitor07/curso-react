@@ -19,7 +19,7 @@
   color: white;
 }
 
-.footer footer {
+/* .footer footer {
   display: flex;
   width: 100%;
   background-color: rgb(69, 157, 160);
@@ -28,7 +28,7 @@
   color: white;
   /* height: 100%; */
   /* bottom: 0%; */
-}
+/* } */
 
 .buttons-nav {
   display: flex;
@@ -46,5 +46,5 @@
   text-align: center;
   justify-content: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.341);
-  margin: 0 auto;
+  margin: 30px;
 }
